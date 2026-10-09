@@ -1,6 +1,6 @@
 # ☕ Brewkery
 
-**Brewkery** is an Android coffee ordering application that allows users to explore coffee options, customize their drinks, and manage their orders through a clean and user-friendly interface.
+Brewkery is an Android coffee ordering application that allows users to explore coffee options, customize their drinks, and manage their orders through a clean and user-friendly interface.
 
 The application is developed using Kotlin and XML in Android Studio.
 
@@ -11,9 +11,9 @@ The application is developed using Kotlin and XML in Android Studio.
 - 📏 **Size Selection:** Choose from available drink sizes.
 - 🥛 **Milk Preferences:** Select your preferred milk option.
 - 🍬 **Sugar Customization:** Adjust the sugar level of your drink.
-- 💰 **Dynamic Pricing:** View the updated price based on selected customizations.
+- 💰 **Dynamic Pricing:** View updated prices based on selected customizations.
 - 🛒 **Cart Functionality:** Add customized drinks to the cart.
-- 🎨 **User-Friendly Interface:** Enjoy a clean and intuitive ordering experience.
+- 🎨 **User-Friendly Interface:** Clean and intuitive ordering experience.
 
 ## 🛠️ Tech Stack
 
@@ -21,8 +21,113 @@ The application is developed using Kotlin and XML in Android Studio.
 - **UI Design:** XML
 - **IDE:** Android Studio
 - **Platform:** Android
-- **View Binding:** For accessing UI components
+- **View Binding:** Access UI components efficiently.
 - **Version Control:** Git and GitHub
+
+## 🤖 AI Usage and Disclosure
+
+AI tools were used as development assistants during the creation of Brewkery.
+
+### Tools Used
+- **ChatGPT:** Used for technical guidance, troubleshooting implementation issues, understanding Android development concepts, and assisting with code improvements.
+- **Cursor:** Disclose its use here if it was used during development. Specify whether it assisted with code generation, editing, debugging, or other tasks.
+
+### How AI Was Used
+AI assistance was used to support the development process, including:
+- Understanding and troubleshooting Kotlin and Android development issues.
+- Getting guidance on implementing UI components and user interactions.
+- Resolving issues related to drink customization, radio-button selection, and dynamic price calculation.
+- Reviewing implementation approaches and identifying potential fixes.
+
+### Human Review and Responsibility
+AI-generated suggestions were reviewed and adapted as needed during development. The application was built and tested in Android Studio, with responsibility for the final implementation and verification resting with the developer.
+
+AI tools served as assistants rather than replacements for understanding, implementation, and testing.
+
+
+## 📱 Screenshots
+
+Add screenshots of the application below.
+
+<!-- Upload screenshots to a screenshots/ directory and uncomment
+the relevant image references.
+
+![Home Screen](screenshots/home.png)
+![Menu Screen](screenshots/menu.png)
+![Customization Screen](screenshots/customization.png)
+![Cart Screen](screenshots/cart.png)
+-->
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Android Studio
+- Android SDK
+- Git
+- Android emulator or physical Android device
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <YOUR_GITHUB_REPOSITORY_URL>
+   ```
+
+2. Open Android Studio.
+3. Select **Open** and choose the cloned Brewkery project directory.
+4. Allow Gradle to sync and download the required dependencies.
+5. Connect an Android device or start an emulator.
+6. Click **Run ▶** to build and launch the application.
+
+## 📦 Download APK
+
+A debug APK can be generated from Android Studio:
+
+1. Navigate to **Build → Build Bundle(s) / APK(s) → Build APK(s)**.
+2. Wait for the build to complete.
+3. Find the generated APK at:
+
+   `app/build/outputs/apk/debug/app-debug.apk`
+
+The APK can be distributed for testing and installed on a compatible Android device.
+
+## 📂 Project Structure
+
+```text
+Brewkery/
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/ruchir55/brewkery/
+│           │       ├── activities/
+│           │       └── ...
+│           ├── res/
+│           │   ├── layout/
+│           │   ├── drawable/
+│           │   ├── mipmap/
+│           │   └── values/
+│           └── AndroidManifest.xml
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+```
+
+*The structure above is illustrative; actual project files may vary.*
+
+## 🎯 Project Objective
+
+Brewkery demonstrates Android application development using Kotlin and XML, focusing on user interface design, interactive drink customization, dynamic price calculation, and cart functionality.
+
+## 👨‍💻 Author
+
+**Ruchir**
+
+---
+
+⭐ If you find this project interesting, consider giving the repository a star!
 
 ## 📱 Screenshots
 
